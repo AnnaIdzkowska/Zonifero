@@ -1,0 +1,28 @@
+@media (min-width: 992px) {
+	.nav {
+		height: 250px;
+
+	&__one {
+
+
+		.nav__one-link {
+			.nav-item{
+				padding:30px;
+			}
+		}
+	}
+	&__two {
+		padding: 0 200px;
+	}
+				.nav-item{
+				padding:0 20px;
+			}
+}
+
+.zonifero-workplace {
+	display: flex;
+}
+.zonifero-workplace-mobile {
+	display: none;
+}
+}
