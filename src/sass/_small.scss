@@ -109,7 +109,6 @@
 				position: relative;
 
 				&-desk {
-					// position: absolute;
 					width: 100%;
 					height: 100%;
 					z-index: 100;
@@ -127,7 +126,6 @@
 				position: relative;
 				display: flex;
 				flex-direction: column;
-				// bottom: -90%;
 				width: 100%;
 				height: 100%;
 				background-color: #f7f7f7;
@@ -206,27 +204,18 @@
 				height: 50%;
 				width: 100%;
 				flex-direction: column;
-				// font-size: 40px;
 				justify-content: start;
 			}
 			&-title {
 				width: 100%;
 				padding: 40px;
 			}
-			&-info {
-				// width: 100%;
-				// padding: 40px;
-			}
+
 			&-link {
 				left: 20%;
 				width: 60%;
 			}
-			&-phone {
-				// img{
-				// top: 0;
-				// height: 400px;
-				// }
-			}
+
 		}
 	}
 
@@ -283,43 +272,4 @@
 		}
 	}
 
-	// .sensors {
-	// 	&__box {
-	// 		padding: 40px 0 0 0;
-	// 		&-title {
-	// 			padding: 0 40px;
-	// 			width: 100%;
-	// 		}
-
-	// 		&-text {
-	// 			padding: 40px;
-	// 			width: 100%;
-	// 		}
-	// 		&-img {
-	// 			position: relative;
-	// 			bottom: 0;
-	// 			padding: 0 40px;
-	// 			width: 100%;
-	// 		}
-	// 	}
-	// 	&__info {
-	// 		flex-direction: column;
-	// 		width: 100%;
-	// 		padding: 0;
-	// 		margin: 0;
-
-
-	// 		&-one {
-	// 			padding:0 40px;
-	// 			margin: 0;
-	// 			width: 100%;
-	// 		}
-
-	// 		&-two {
-	// 			padding: 40px;
-	// 			margin: 0;
-	// 			width: 100%;
-	// 		}
-	// 	}
-	// }
 }

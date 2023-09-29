@@ -4,7 +4,6 @@
 	font-family: "Poppins", sans-serif;
 	color: #3146ff;
 	font-size: 70px;
-	// line-height: 80;
 }
 
 @mixin decription-text {
@@ -70,20 +69,11 @@ section {
 
 			.nav-item {
 				display: inline-block;
-				// flex-direction: row;
 				padding: 30px;
-				// align-items: center;
-				// justify-content: space-around;
 				color: #000;
 				font-size: 20px;
 				text-decoration: none;
 				cursor: pointer;
-
-				// display: inline-block;
-				// height: 100px;
-				// width: 300px;
-				// line-height: 100px;
-				// cursor: pointer;
 				transition: background-color 0.3s;
 			}
 
@@ -137,7 +127,6 @@ section {
 				.fa-chevron-down {
 					position: absolute;
 					padding-top: 3px;
-					// top: 40%;
 					right: 0;
 					transform: translateX(-50%, -50%);
 				}
@@ -261,7 +250,6 @@ section {
 			height: 100%;
 
 			&-desk {
-				// position: absolute;
 				bottom: 0;
 				top: 0;
 				right: 0;
