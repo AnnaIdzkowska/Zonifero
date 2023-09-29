@@ -1,0 +1,85 @@
+@media (min-width: 768px) {
+	.nav {
+		height: 220px;
+
+		.burger-icon {
+			display: none;
+		}
+
+		&__one {
+			&-logo {
+				.logo {
+					display: block;
+					padding: 30px;
+				}
+				.logo-zonifero {
+					display: none;
+				}
+			}
+
+			.burger-icon {
+				display: none;
+			}
+
+			.nav__one-link {
+				display: flex;
+
+				.nav-item {
+					padding: 30px 10px;
+				}
+			}
+		}
+		&__two {
+			display: flex;
+			padding: 0 20px;
+		}
+		.nav-item {
+			padding: 30px 10px;
+		}
+	}
+
+	.features {
+		&__box {
+			&-text {
+				flex-direction: row;
+			}
+			&-title {
+				width: 100%;
+				padding: 40px;
+			}
+
+			&-info {
+				width: 100%;
+			}
+		}
+	}
+	.specs {
+		&__box {
+			flex-direction: row;
+		}
+	}
+
+	.download {
+		&__info {
+			flex-direction: row;
+
+			&-system {
+				margin: 0 200px;
+				width: 50%;
+			}
+			&-support {
+				margin: 0 200px;
+				width: 50%;
+			}
+		}
+		&__box {
+			flex-direction: row;
+			justify-content: space-around;
+
+			p {
+				position: relative;
+				padding: 50px 30px;
+			}
+		}
+	}
+}
